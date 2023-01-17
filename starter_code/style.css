@@ -1,0 +1,167 @@
+/*
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+*/
+
+*
+@media (width > 768px) {
+    .html
+}
+
+   
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.intro {
+    padding: .5em;
+}
+
+.main-nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #site-logo {
+   
+    width: 100%;
+    max-width: 150px;
+    height:auto
+}
+
+.nav-btn-container {
+   
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1em;
+}
+img {
+    max-widht: 100%;
+}
+
+.background-purple {
+    background: #540B51;
+    color: white;
+}
+.background-ivory {
+    background: #F3EAE2;
+}
+.background-white {
+    background: #fff;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+    font-size: 2.5em;
+
+}
+
+h2 {
+    margin-bottom: 1em;
+
+}
+h3 {
+    text-align: center;
+    font-size: 1.8;
+
+}
+button {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+    .nav-btn-container {
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 1em;
+    }
+    
+
+nav button {
+    background: transparent;
+    border: none
+}
+
+.references div {
+    justify-content: space-around;
+    padding: 5vw
+}
+.feature .feature-content {
+    padding: 1em;
+}
+
+.feature .feature-link {
+    color: #2E71A6;
+    text-decoration: none;
+}
+
+.key-numbers {
+    padding: .5em;
+    text-align: center;
+}
+
+
+.key-numbers ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.key-numbers .key-num span {
+    font-size: 2em;
+    color: #540B51;
+    font-weight: 900;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+.pr-2 {
+    padding-right: 2em;
+}
+
+.pl-2 {
+    padding-left: 2em;
+}
+.d-mobile-none {
+    display: none;
+}
+
+footer {
+    padding: 1em .5em;
+    color: #454245;
+    font-size: .80em;
+}
+.footer-second-nav {
+    font-weight: bold;
+}
+
+footer .footer-logo {
+    width: 50px;
+    margin: 2em 0;
+}
+
+
+
+
+
+
+
+
+
+.copyright {
+    padding: 1em .5em;
+}
